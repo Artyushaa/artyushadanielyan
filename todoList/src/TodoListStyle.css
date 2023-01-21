@@ -1,0 +1,42 @@
+.todoList__container {
+  width: 25%;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.todoList__item {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoList__item-btn {
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  /* padding: 5px; */
+}
+
+.todoList__item-btn-container {
+  width: 55%;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.todoList__typing-field-container {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todoList--hyphen {
+  text-decoration: line-through
+}
