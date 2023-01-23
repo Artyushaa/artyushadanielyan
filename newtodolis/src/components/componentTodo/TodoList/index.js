@@ -1,3 +1,1 @@
-import TodoList from "./TdodoList";
-
-export default TodoList
+export { default } from "./TdodoList";
