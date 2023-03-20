@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.TodoForm__container {
+  width: 40%;
+  border: 1px solid;
+}
+
+.TodoForm__errors {
+  color: red;
+}
