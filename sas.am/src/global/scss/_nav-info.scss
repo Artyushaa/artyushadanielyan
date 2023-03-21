@@ -1,0 +1,49 @@
+.nav-info {
+  width: 100%;
+  // border: 1px solid;
+  font: 400 14px/22px "Open Sans", Arial, Helvetica, sans-serif;
+  background-color: #F6F9FB;
+  padding: 0 40px 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.switch-case {
+  width: 15%;
+  // border: 1px solid;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+
+  &__supermarket-text {
+    color: #27c;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  &__food-court-text {
+    font-size: 1.25rem;
+    color: #8d9299;
+    font-weight: 600;
+    transition: all ease .3s;
+  }
+
+  &__food-court-text:hover {
+    color: #27c;
+  }
+}
+
+.contacts-container {
+  width: 28%;
+  // border: 1px solid;
+  display: flex;
+  justify-content: space-evenly;
+
+  &__item {
+    color: #8d9299;
+    font-size: 1.25rem;
+    border: none;
+    background: none;
+    font-family: open sans, Arial, Helvetica, sans-serif;
+  }
+}
