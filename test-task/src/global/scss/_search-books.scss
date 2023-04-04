@@ -1,0 +1,137 @@
+.search-books {
+  padding: 50px;
+  // border: 1px solid red;
+  background-image: url('https://images.unsplash.com/photo-1585862705417-671ae64f0eb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJsYWNrJTIwYm9va3xlbnwwfHwwfHw%3D&w=1000&q=80');
+
+  &__title {
+    color: white;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 600;
+  }
+
+  &__form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    // border: 1px solid blue;
+    margin-top: 30px;
+  }
+
+  &__text-field {
+    width: 80%;
+    padding: 10px;
+    outline: none;
+  }
+
+  &__btn {
+    padding: 5px 10px;
+    font-size: 1.7rem;
+    outline: none;
+  }
+
+  &__categories,
+  &__sorting {
+    width: 35%;
+    padding: 10px 20px;
+    // border: 1px solid red;
+    margin-top: 10px;
+    padding: 7px;
+    color: gray;
+    outline: none;
+  }
+
+  &__categories-text,
+  &__sorting-text {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+
+  &__books-container {
+    width: 100%;
+    // border: 1px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px 0;
+  }
+
+  &__total-items {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  &__books {
+    width: 17%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+    // border: 1px solid red;
+    background-color: #F3F2F1;
+    margin-top: 20px;
+  }
+
+  &__img-container {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    // border: 1px solid yellow;
+  }
+
+  &__books-pictured {
+    width: 90%;
+  }
+
+  &__description-container {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    // border: 1px solid green;
+    margin-bottom: 0;
+  }
+
+  &__books-categories-text {
+    color: gray;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  &__books-title {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  &__books-title:hover {
+    color: #3BB77E;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  &__books-author-name {
+    font-size: 1.5rem;
+    color: gray;
+    margin-top: 5px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__loading-btn {
+    padding: 10px;
+  }
+}
