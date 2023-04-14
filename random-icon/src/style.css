@@ -1,0 +1,42 @@
+.random-icon__container {
+  padding: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.random-icon__icon {
+  font-size: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loading {
+  font-size: 25px;
+}
+
+.random-icon__btn {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 25px;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.random-icon__btn-disabled {
+  background: rgb(185, 185, 185);
+  color: black;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 25px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 20px;
+}
